@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="messageConsumerLisenter" class="com.fishman.MessageConsumerLisenter">
+        <!--<property name="messageSenderService" ref="syncMessageSenderService"></property>-->
+    </bean>
+
+    <bean class="com.fishman.RocketMqConsumerService" init-method="start" destroy-method="shutdown">
+        <property name="listener" ref="messageConsumerLisenter"></property>
+        <property name="topics">
+            <list>
+                <value>TOPIC-1</value>
+                <value>TOPIC-2</value>
+                <value>TOPIC-3</value>
+                <value>TOPIC-4</value>
+                <value>TOPIC-5</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>

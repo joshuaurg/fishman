@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-test:4.0.5.RELEASE">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../.." />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/tools/mvn-repo/org/springframework/spring-test/4.0.5.RELEASE/spring-test-4.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/tools/mvn-repo/org/springframework/spring-test/4.0.5.RELEASE/spring-test-4.0.5.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/tools/mvn-repo/org/springframework/spring-test/4.0.5.RELEASE/spring-test-4.0.5.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
